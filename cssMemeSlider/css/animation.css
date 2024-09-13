@@ -1,0 +1,57 @@
+#radio1:checked ~ .down-line .button-image1,
+#radio2:checked ~ .down-line .button-image2,
+#radio3:checked ~ .down-line .button-image3,
+#radio4:checked ~ .down-line .button-image4,
+#radio5:checked ~ .down-line .button-image5 {
+  background-color: #3b3b3b;
+}
+
+#radio1:checked ~ .down-line label:nth-child(1) {
+  cursor: auto;
+  pointer-events: none;
+}
+
+#radio2:checked ~ .down-line label:nth-child(2) {
+  cursor: auto;
+  pointer-events: none;
+}
+
+#radio3:checked ~ .down-line label:nth-child(3) {
+  cursor: auto;
+  pointer-events: none;
+}
+
+#radio4:checked ~ .down-line label:nth-child(4) {
+  cursor: auto;
+  pointer-events: none;
+}
+
+#radio5:checked ~ .down-line label:nth-child(5) {
+  cursor: auto;
+  pointer-events: none;
+}
+
+#radio1:checked ~ .slides-container .slides-carousel {
+  margin-left: 0%;
+}
+#radio2:checked ~ .slides-container .slides-carousel {
+  margin-left: -100%;
+}
+#radio3:checked ~ .slides-container .slides-carousel {
+  margin-left: -200%;
+}
+#radio4:checked ~ .slides-container .slides-carousel {
+  margin-left: -300%;
+}
+#radio5:checked ~ .slides-container .slides-carousel {
+  margin-left: -400%;
+}
+
+#radio1:checked ~ .down-line .label:nth-child(1),
+#radio2:checked ~ .down-line .label:nth-child(2),
+#radio3:checked ~ .down-line .label:nth-child(3),
+#radio4:checked ~ .down-line .label:nth-child(4),
+#radio5:checked ~ .down-line .label:nth-child(5)
+{
+  opacity: 1;
+}
